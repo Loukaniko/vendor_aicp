@@ -267,8 +267,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aicp/overlay/common
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
 
-# AICP Versioning
--include vendor/aicp/config/version.mk
+# Version
+AICP_VERSION := Sausages_-$(shell date -u +%Y%m%d)
 
 # Omni Packages
 PRODUCT_PACKAGES += \
