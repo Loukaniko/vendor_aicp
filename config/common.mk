@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
 
 # init.d support
 PRODUCT_COPY_FILES += \
-    vendor/aicp/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/aicp/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
