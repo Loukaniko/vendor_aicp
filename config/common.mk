@@ -107,10 +107,6 @@ ifeq ($(WITH_TWRP),true)
 include vendor/aicp/config/twrp.mk
 endif
 
-# Bootanimation
-PRODUCT_PACKAGES += \
-    bootanimation.zip
-
 # Required AICP packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
